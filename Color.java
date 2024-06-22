@@ -1,6 +1,8 @@
-/*
- *	Color class
- */
+// == CS400 Spring 2024 File Header Information ==
+// Name: Evan Wendt
+// Email: ewendt3@wisc.edu
+// Lecturer: Jiazhen Zhou
+// CS Username: ewendt
 public class Color{
 	private String color;
 
@@ -19,13 +21,15 @@ public class Color{
 		return this.color;
 	}
 
-	/* The method for changing the color
-	 * TODO: Revise the code so that it return true only if the input color is valid
-	 * 	and different from the exisitng color before making the change
-	 */
+	// The method for changing the color
 	public boolean  changeColor(String newColor){
+		if(!isColorValid(newColor) || this.color.equals(newColor)) {
+			return false;
+		}
+		
+		
 		this.color = newColor;
-
+		
 		return true;
 	}
 

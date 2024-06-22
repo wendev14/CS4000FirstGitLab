@@ -1,6 +1,8 @@
-/*
- * Test the use of the Color method
- */
+// == CS400 Spring 2024 File Header Information ==
+// Name: Evan Wendt
+// Email: ewendt3@wisc.edu
+// Lecturer: Jiazhen Zhou
+// CS Username: ewendt
 import java.util.*;
 
 public class Main{
